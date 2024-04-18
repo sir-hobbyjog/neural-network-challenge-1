@@ -33,10 +33,7 @@ To use this project, run the Jupyter Notebook `student_loans_with_deep_learning.
 5. Evaluating the model performance
 
 ## Define the model
-```model = Sequential([
- Dense(units=8, activation='relu', input_dim=number_of_features),
- Dense(units=1, activation='sigmoid')
-])```
+```model = Sequential([Dense(units=8, activation='relu', input_dim=number_of_features),Dense(units=1, activation='sigmoid')])```
 
 ## Compile the model
 ```model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])```
